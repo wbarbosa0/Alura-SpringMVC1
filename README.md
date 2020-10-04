@@ -49,7 +49,7 @@
 * Configurações de dialeto e time zone para o MySQL 8
    * Descobri a existência de uma propriedade do sistema de nome user.timezone que traz a TZ atual do sistema em uma grafia aceita pelo Driver, adicionada ao URL na configuração da base de dados:
    
-   spring.datasource.url=jdbc:mysql://localhost:3306/mudi**?serverTimezone=${user.timezone}**
+   spring.datasource.url=jdbc:mysql://localhost:3306/mudi **?serverTimezone=${user.timezone}**
    
  
 ## Aula 4 - Trabalhando com formulário
