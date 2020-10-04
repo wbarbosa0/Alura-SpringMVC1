@@ -62,3 +62,13 @@
 * Implementação de jumbotron na view **hello** apenas porque sim...;
 * Aplicação da class **card** no formulário de pedidos;
 * Criação de diretório screenshots com as figuras contendo o modelo das telas.
+
+## Aula 5
+### Implementações
+* Anotar objeto DTO para validação
+* Marcação no endpoint de persistência para validação com **@Valid** e uso de **BindingResult**;
+* Mostrar mensagens de erro no formulário.
+* Customização de uma das mensagens de erro via **messages.properties**;
+
+###Extras
+* Uso de @Size para limitar o tamanho do dado uma vez que as colunas criadas no MySQL para String só suportam até 255 caracteres. 

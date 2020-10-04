@@ -1,11 +1,24 @@
 package br.nom.warbosa.mvc.mudi.dto;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
 import br.nom.warbosa.mvc.mudi.model.entity.Pedido;
 
 public class NovoPedidoDto {
+	@NotBlank
+	@Size(max = 255, min = 3)
 	private String nomeProduto;
+
+	@NotBlank
+	@Size(max = 255, min = 3)
 	private String urlProduto;
+
+	@NotBlank
+	@Size(max = 255, min = 3)
 	private String urlImagemProduto;
+
+	@Size(max = 255)
 	private String descricao;
 
 	public String getNomeProduto() {
