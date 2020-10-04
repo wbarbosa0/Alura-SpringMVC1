@@ -50,4 +50,15 @@
    * Descobri a existência de uma propriedade do sistema de nome user.timezone que traz a TZ atual do sistema em uma grafia aceita pelo Driver, adicionada ao URL na configuração da base de dados:
    
    spring.datasource.url=jdbc:mysql://localhost:3306/mudi**?serverTimezone=${user.timezone}**
-	 
+   
+ 
+## Aula 4
+### Implementações
+* Implementação de menu de navegação e jumbotron na view **home**;
+* Implementação do formulário de pedidos;
+* Implementação de classe DTO **NovoPedidoDTO**.
+
+###Extras
+* Implementação de jumbotron na view **hello** apenas porque sim...;
+* Aplicação da class **card** no formulário de pedidos;
+* Criação de diretório screenshots com as figuras contendo o modelo das telas.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Pedido</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron mb-0">
+			<h1 class="display-4">Novo Pedido</h1>
+		</div>
+		<div>
+			<form action="/pedido/novo" method="POST">
+				<div class="card">
+				
+				<label for="nomeProduto"> Produto  </label>
+				<input name="nomeProduto" placeholder="Nome do produto" />
+				<small>Informe qual o nome do produto.</small>
+				
+				<label for="urlProduto"> URL  </label>
+				<input name="urlProduto" placeholder="URL do produto" />
+				<small>Procure em um site o produto que você deseja e cole a URL da página aqui.</small>
+				
+				<label for="urlImagemProduto"> Imagem  </label>
+				<input name="urlImagemProduto" placeholder="URL da imagem" />
+				<small>Copie a URL de uma boa imagem do produto e cole aqui para ajudar a conseguir compradores.</small>
+				
+				<label for="descricao"> Descrição  </label>
+				<textarea name="descricao" placeholder="Adicione detalhes importantes para ajudar o comprador"></textarea>
+				</div>
+				<button type="submit">Cadastrar</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
