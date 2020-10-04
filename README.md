@@ -72,3 +72,11 @@
 
 ###Extras
 * Uso de @Size para limitar o tamanho do dado uma vez que as colunas criadas no MySQL para String só suportam até 255 caracteres. 
+
+## Aula 6
+### Implementações
+* Cabeçalho das páginas contendo texto em uma fonte personalizada mais um texto relativo a login/logout (a ser implementado);
+* Templates para cabeçalho, tag head e jumbotron com título da página (Este último recebe parâmetro com título da página);
+* Adição de mb-3 no card da view **home**.
+
+###Extras
